@@ -1,0 +1,47 @@
+body {
+    padding-top: 54px;
+  }
+  
+
+.card-split {
+    justify-content: center;
+}
+
+.card-display {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+ 
+.pad-right {
+    display: inline-block;
+}
+
+.push-right {
+  margin-left: 30em;
+}
+
+.not-empty {
+  color: green;
+}
+
+.card-wrapper{
+  min-height: 380px;
+}
+
+.card-cart {
+  margin-top: 6rem;
+}
+
+#price {
+  color: rgb(144, 145, 160);
+}
+
+#order-total {
+  border: 1px solid rgba(0,0,0,0);
+}
+
+#quantity {
+  width: 3rem;
+  margin-right: 1rem;
+}
+
