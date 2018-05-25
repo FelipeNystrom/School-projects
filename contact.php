@@ -8,8 +8,6 @@ include "includes/header.php";
 <div class="messages"></div>
 
 <div class="controls">
-
-<div class="card-wrapper">
   <div class="card card-display card-cart">
     <div class="card-body">
         <h1 class="card-title text-center">Kontakt</h1>
@@ -66,7 +64,6 @@ include "includes/header.php";
 
 </form>
 
-    </div>
   </div>
 </div>
 <?php include "includes/footer.php"; ?>

@@ -80,8 +80,8 @@ if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQ
 }
 // else just display the message
 else { ?>
-    <div class="card-wrapper">
-    <div class="card card-display card-cart" style="border: none;">
+
+    <div class="card card-cart" style="border: none;">
         <div class="card-body" style="padding: auto 2rem;">
             <?php if($responseArray["type"] == "success") {
                     echo '<div class="alert alert-success text-center muted" role="alert" style="min-height: 3rem; padding-top: auto; font-size: 1.5rem;">'
@@ -95,7 +95,7 @@ else { ?>
                         ?>
         </div>
     </div>
-</div>
+
 
 <?php }
 

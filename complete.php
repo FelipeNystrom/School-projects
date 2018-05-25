@@ -90,7 +90,7 @@ if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQ
 }
 // else just display the message
 else { ?>
-    <div class="card-wrapper">
+
     <div class="card card-display card-cart" style="border: none;">
         <div class="card-body" style="padding: auto 2rem;">
             <?php if($responseArray["type"] == "success") {
@@ -105,7 +105,7 @@ else { ?>
                         ?>
         </div>
     </div>
-</div>
+
 
 <?php }
 
