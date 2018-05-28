@@ -4,7 +4,7 @@
 <!-- Footer -->
 <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Mobitel <?=date(Y) ?></p>
+        <p class="m-0 text-center text-white">Copyright &copy; Pelif Production <?=date(Y) ?></p>
       </div>
       <!-- /.container -->
     </footer>
